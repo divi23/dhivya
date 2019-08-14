@@ -5,7 +5,7 @@ void main()
 	float median,a[n];
 	printf("enter the number of element:");
 	scanf("%d",&n);
-	printf("enter %d of an element");
+	printf("enter %d of an element",n);
 	for(i=0;i<n;i++)
 	scanf("%f\n",&a[i]);
 	if(n%2==0)
